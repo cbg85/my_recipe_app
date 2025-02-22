@@ -1,9 +1,9 @@
-class Recipe {
+class MyRecipe {
   final String name;
-  final String ingredients;
+  final List<String> ingredients;
   final String instructions;
 
-  Recipe({
+  MyRecipe({
     required this.name,
     required this.ingredients,
     required this.instructions,
